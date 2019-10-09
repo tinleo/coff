@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: employee
-        image: gcr.io/${PROJECT-ID}/employee:1.0
+        image: gcr.io/${PROJECT_ID}/employee:1.0
         ports:
         - containerPort: 8080
         env:
