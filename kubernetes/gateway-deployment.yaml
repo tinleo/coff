@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gateway
-        image: coff/gateway:1.0
+        image: gcr.io/${PROJECT-ID}/gateway:1.0
         ports:
         - containerPort: 8080
 ---

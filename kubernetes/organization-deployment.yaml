@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: organization
-        image: coff/organization:1.0
+        image: gcr.io/${PROJECT-ID}/organization:1.0
         ports:
         - containerPort: 8080
         env:
